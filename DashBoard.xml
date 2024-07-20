@@ -1,0 +1,10 @@
+<suite name="DashBoard">
+    <listeners>
+ <listener class-name="Retry.AnnotationTransformer"/>
+    </listeners>
+    <test name="DashBoard-test">
+        <classes>
+            <class name="TestCases.DashBoard"/>
+        </classes>
+    </test>
+</suite>
