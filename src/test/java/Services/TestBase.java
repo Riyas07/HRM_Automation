@@ -2,6 +2,7 @@ package Services;
 
 import Services.BrowserManager;
 import Services.DriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
@@ -20,9 +21,12 @@ public class TestBase
      this.driver= DriverManager.getInstance().getDriver();
      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
   }
-  //@AfterTest
+  @AfterTest
   public void end()
   {
+      driver.findElement(By.xpath("//ul//li//img//ancestor::ul")).click();
+      driver.findElement(By.xpath("//ul//li//img//parent::span//following-sibling::ul//li[4]"))
+                      .click();
       DriverManager.getInstance().quitDriver();
   }
 }
