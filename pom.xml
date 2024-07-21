@@ -30,7 +30,7 @@
 
 </dependencies>
     <properties>
-        <suiteFile>DashBoard.xml</suiteFile>
+        <suiteFile>run.xml</suiteFile>
         <SeleniumJava.version>4.22.0</SeleniumJava.version>
         <testNg.version>7.10.2</testNg.version>
         <poi.version>5.2.5</poi.version>
