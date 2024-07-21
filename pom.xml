@@ -31,11 +31,11 @@
 </dependencies>
     <properties>
         <suiteFile>run.xml</suiteFile>
-        <SeleniumJava.version>4.22.0</SeleniumJava.version>
-        <testNg.version>7.10.2</testNg.version>
+        <SeleniumJava.version>4.17.0</SeleniumJava.version>
+        <testNg.version>7.9.0</testNg.version>
         <poi.version>5.2.5</poi.version>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 <build>
