@@ -2,6 +2,7 @@
     <listeners>
  <listener class-name="Retry.AnnotationTransformer"/>
     </listeners>
+    <parameter name="username" value="riyas"/>
     <test name="DashBoard-test">
         <classes>
             <class name="TestCases.DashBoard"/>
